@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "PiP Video",
+  "description": "Enable Picture-in-Picture for videos across tabs",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+  },
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "16": "images/video-player-colors(16px).png",
+    "32": "images/video-player-colors(32px).png",
+    "48": "images/video-player-colors(64px).png",
+    "64": "images/video-player-colors(64px).png",
+    "128": "images/video-player-colors(128px).png"
+  },
+  "commands": {
+    "toggle_pip": {
+      "suggested_key": {
+        "default": "Alt+P"
+      },
+      "description": "Toggle PiP mode for the playing video"
+    },
+    "toggle_pause": {
+      "suggested_key": {
+        "default": "Alt+O"
+      },
+      "description": "Toggle Pause/Start for the playing video"
+    },
+    "back_to_tab": {
+      "suggested_key": {
+        "default": "Alt+L"
+      },
+      "description": "Go back to the tab of the Piped video"
+    }
+  }
+}
