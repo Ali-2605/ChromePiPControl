@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "PiP Video",
-  "description": "Enable Picture-in-Picture for videos across tabs",
+  "name": "PiP Controls",
+  "description": "Enhance your browsing experience by watching videos while multitasking and quickly switching between tabs.",
   "version": "1.0",
   "permissions": [
     "tabs",
