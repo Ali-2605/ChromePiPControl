@@ -1,8 +1,8 @@
 # ChromePiPControl Extension
 
-![Logo](images/video-player-colors(512px).png)
+<img src="images/video-player-colors(512px).png" style="display: block; margin-left: auto; margin-right: auto; width: 20%;">
 
-**ChromePiPControl** is a Chrome extension that allows you to control videos in Picture-in-Picture (PiP) mode across all tabs. It provides the ability to toggle PiP mode, play/pause videos, and return to the tab where the video is playing—all with keyboard shortcuts.
+**ChromePiPControl** is a Chrome extension that allows you to control videos in Picture-in-Picture (PiP) mode across all tabs. It provides the ability to toggle PiP mode, play/pause videos, and return to the tab where the video is playing all with keyboard shortcuts.
 
 ## Features
 - **Toggle Picture-in-Picture (PiP) mode**: Automatically activates or deactivates PiP for the first active video found on any tab.
@@ -51,4 +51,5 @@ To install the **ChromePiPControl** extension:
 
 ---
 
-© 2025 ChromePiPControl
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
